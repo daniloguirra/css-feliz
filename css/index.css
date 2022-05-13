@@ -6,7 +6,7 @@ header{
     padding: 10px 20px;
 }
 
-h1{
+.logodan{
     display: flex;
     color: #FFF;
     font-size: 15px;
@@ -16,7 +16,7 @@ h1{
     text-shadow: 2px 2px 2px black;
 }
 
-h1:before{
+.logodan:before{
     content: "<";
     color: #00F;
     width: 9px;
@@ -25,7 +25,7 @@ h1:before{
 
 }
 
-h1:after{
+.logodan:after{
     content: "/>";
     color: #00F;
     width: 9px;
@@ -71,3 +71,4 @@ a:before{
     font-size:18px;
     background-color: rgb(216, 0, 245);
 }
+
